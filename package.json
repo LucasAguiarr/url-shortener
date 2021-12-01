@@ -1,0 +1,36 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL shortening application",
+  "main": "index.js",
+  "scripts": {
+    "lint-fix": "eslint . --ext .ts --fix",
+    "dev": "nodemon -x node src/server.js",
+    "start": "node src/server.ts"
+  },
+  "author": "Lucas Aguiar <luqkinhaas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.4.1",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.2.0",
+    "prettier": "^2.2.1",
+    "prisma": "^3.4.1",
+    "nodemon": "^2.0.15"
+  }
+}
